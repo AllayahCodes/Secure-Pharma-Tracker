@@ -1,0 +1,31 @@
+{
+  "name": "secure-pharma-tracker",
+  "version": "1.0.0",
+  "description": "Blockchain-based pharmaceutical supply chain tracker",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost",
+    "deploy-local": "npx hardhat run scripts/deploy.js --network hardhat",
+    "node": "npx hardhat node",
+    "clean": "npx hardhat clean"
+  },
+  "keywords": [
+    "blockchain",
+    "pharmaceutical",
+    "supply-chain",
+    "ethereum",
+    "solidity"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.2",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "dotenv": "^16.3.1"
+  }
+}
