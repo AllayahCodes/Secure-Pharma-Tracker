@@ -39,3 +39,15 @@ The contract enforces four core roles:
    ```bash
    git clone https://github.com/AllayahCodes/Secure-Pharma-Tracker.git
    cd Secure-Pharma-Tracker
+   
+1. Install dependencies
+npm install
+
+2. Start a local Hardhat node (in one terminal)
+npx hardhat node
+
+3. Deploy the contract (in a second terminal)
+npm run deploy
+
+4. Copy the deployed contract address into the frontend config, and connect MetaMask to the Hardhat Local Network (Chain ID 31337, RPC https://127.0.0.1:8545)
+
