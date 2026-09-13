@@ -24,10 +24,10 @@ SecurePharmaTracker addresses a real problem in pharmaceutical supply chains: pr
 ## Architecture
 
 The contract enforces four core roles:
-- 'MANUFACTURER_ROLE' - can create batches and log quality tests
-- 'DISTRIBUTOR_ROLE' - can update custody/status
-- 'REGULATOR_ROLE' - oversight and compliance actions
-- 'AUDITOR_ROLE' - read/verification access
+- `MANUFACTURER_ROLE` - can create batches and log quality tests
+- `DISTRIBUTOR_ROLE` - can update custody/status
+- `REGULATOR_ROLE` - oversight and compliance actions
+- `AUDITOR_ROLE` - read/verification access
 
 ## Demo
 
@@ -36,6 +36,6 @@ The contract enforces four core roles:
 ## Running Locally
 
 1. Clone the repo
-   '''bash
+   ```bash
    git clone https://github.com/AllayahCodes/Secure-Pharma-Tracker.git
    cd Secure-Pharma-Tracker
